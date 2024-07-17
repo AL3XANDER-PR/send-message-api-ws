@@ -1,6 +1,7 @@
 import { BaileysProvider, handleCtx } from "@bot-whatsapp/provider-baileys"
 import { createBot, createProvider, createFlow, MemoryDB } from '@bot-whatsapp/bot'
 
+import QRPortalWeb from '@bot-whatsapp/portal'
 
 const main = async () => {
     const provider = createProvider(BaileysProvider)
@@ -20,6 +21,7 @@ const main = async () => {
         provider
     })
 
+    QRPortalWeb()
 
 }
 
