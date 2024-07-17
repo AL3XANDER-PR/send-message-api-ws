@@ -21,7 +21,7 @@ const main = async () => {
         provider
     })
 
-    // QRPortalWeb()
+    QRPortalWeb()
 
 }
 
